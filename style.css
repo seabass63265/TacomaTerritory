@@ -1,0 +1,235 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align content to the top */
+    margin: 0;
+    padding-top: 20px; /* Add padding at the top */
+    background-color: black;
+    color: white;
+    min-height: 100vh; /* Ensure it's at least the full height of the viewport */
+}
+
+/* Styling the center-and-fade class */
+.center-and-fade {
+    text-align: center;
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+#activateButton, #textChange, #aboutMe > h1 {
+    margin-bottom: 20px; /* Space below each centered item */
+}
+
+#activateButton {
+    background-color: #222;
+    color: white;
+    border: 1px solid purple;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#activateButton:hover {
+    background-color: #444;
+}
+
+/* Resetting all elements to have no border by default */
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Border and padding included in the width */
+}
+
+/*My FAMOUS horizontal line */
+
+.h {
+    border: 1px solid #ccc; /* Define border properties */
+    margin: 20px 0; /* Add some spacing above and below the horizontal line */
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+/*Border for WELCOMING */
+
+h2 {
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 10px;
+    color: #E0D7C7;
+    background-color: black;
+}
+
+
+/* First young pics */
+.clm {
+    float: left;
+    width: 50%;
+    padding: 3px;
+}
+
+
+/* Section styles */
+#About Me, #WANT A DREAM BUILD, #Taco Tuesday, #Meetup Calendar {
+    width: 80%; /* Adjust width as necessary */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Ensure images do not exceed their container's width */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Animation classes */
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+
+/* SPECIFIC TACO */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+#catalog div {
+    margin-bottom: 10px;
+}
+
+form > * {
+    margin: 5px;
+}
+
+/* TACO Reviews */
+
+.review {
+    width: calc(33.33% - 20px);
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* VOTING FOR TACO*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* VOTING FOR TACO PICS*/
+
+.Tacomas{
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* MEETUPS*/
+
+.Meet {
+    float: left;
+    width: 50%;
+    padding: 3px;
+}
+
+
+/*SOCIAL MEDIAS*/
+
+
+/* Apply styling to the parent <ul> */
+ul.link-list {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Clear floats */
+}
+
+/* Apply styling to each list item */
+ul.link-list li {
+    width: calc(50% - 20px); /* Each item takes up 50% of the container width */
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the images inside the list items */
+ul.link-list img {
+    display: block; /* Ensure images don't affect the layout of surrounding elements */
+    width: 30%; /* Make images fill their parent container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SUGESTION MEETUPS*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#items div {
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 5px;
+}

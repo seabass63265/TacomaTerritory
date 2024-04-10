@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="activateButton" onclick="activate()">Explore</button>
+
+<div id="centerAndFade" class="center-and-fade" style="display: none;">
+    <h1 id="textChange">Tacoma Territory</h1>
+</div>
+
+
+<div id="aboutMe" class="center-and-fade" style="display: none;">
+    <img src="images/taco-meet5.jpg" width= "100%">
+
+    <h2>Welcome to Tacoma Territory</h2>
+    <h3> Your ultimate destination for truck enthusiasts of all ages!
+    At Tacoma Territory, we're not just about trucks; we're about
+    the thrill of adventure, the excitement of customization, and the
+    camaraderie of fellow enthusiasts.</h3> <br>
+
+    <nav>
+        <a href="#About Me">About Me</a>
+        <a href="#WANT A DREAM BUILD?">WANT A DREAM BUILD?</a>
+        <a href="#Taco Tuesday">Taco Tuesday</a>
+        <a href="#Meetup Calendar"> Meetup Calendar</a>
+
+    </nav>
+
+
+    <hr class = "h">
+    <section id="About Me">
+
+
+        <h4> About Sebastian: My Story Behind the Wheel</h4>
+        <p>From Childhood Memories to Personal Ownership, Discover My Toyota Tacoma Journey</p>
+
+
+        <div class = "row">
+             <div class = "clm">
+                 <img src="images/MeNTruck.webp" width= "100%">
+             </div>
+
+        <div class = "clm">
+            <img src="images/MeNTruck2.webp" width= "100%">
+        </div>
+
+
+
+        <img src="images/MeNCaptian.JPG" width= "600" height="400">
+            <br>
+            <div style="text-align: left; margin-bottom: 20px;">
+                My journey with Toyota Tacomas began in the glow of my dad's 1987 model,
+                a rugged yet reliable vehicle that not only fueled my childhood adventures
+                but also laid the foundation for a lifelong passion. This vintage beauty was
+                more than a truck; it was a member of our family, teaching me lessons in reliability,
+                resilience, and the joy of exploration. As I grew, this affinity only deepened,
+                further nurtured by my mom's choice of a white Tacoma, symbolizing continuity
+                and shared family values. Together, these vehicles bookended my childhood,
+                embedding in me a profound appreciation for their strength and versatility.<br> <br>Today, as
+                a member of the LA County Fire Department Ocean Lifeguard Division, my respect
+                for Tacomas has evolved from admiration to reliance. Witnessing their performance
+                and reliability in demanding rescue operations along the coast has only solidified
+                my belief in their capabilities. The white Tacoma, echoing my family's history,
+                now stands as a testament to the enduring quality of these vehicles, bridging my
+                past passions with my professional endeavors. In this challenging environment,
+                Tacomas are not just vehicles but vital partners in our mission to save lives,
+                embodying the same values of durability and dependability that initially captivated me.
+                </br></br>
+            </div>
+            <div style="text-align: left;">
+                Looking forward, the end of this summer marks a significant milestone in my Tacoma journey.
+                I plan to purchase my own Tacoma, a step that represents not just a continuation of a family
+                tradition but also a personal commitment to the values and lifestyle that Tacomas symbolize.
+                This purchase is not merely about owning a vehicle; it's about embracing a legacy of adventure,
+                resilience, and a spirit of exploration that has been nurtured through generations. As I
+                transition to new endeavors, my Tacoma will not just be a means of transportation but a symbol
+                of my history, my achievements, and my aspirations for the future, guiding me as I chart my path
+                forward.
+            </div>
+            <br>
+    </section>
+
+    <img src="images/moddedTOYTA.jpg" width= "100%">
+
+    <section id="WANT A DREAM BUILD?">
+        <div style="text-align: left; margin-bottom: 20px;">
+        <h1>WANT A DREAM BUILD?</h1> <br>
+
+        <p>Tell us about your Toyota Tacoma, Off-Road, Sport, or TRD PRO, and its model year.
+            Whether you're looking for budget-friendly upgrades or premium modifications, we'll
+            tailor our services to meet your needs and financial constraints. From practical
+            accessories to performance enhancements, our skilled technicians are dedicated to
+            delivering exceptional results that exceed your expectations.Let us help you unlock
+            the full potential of your Tacoma, turning it into the perfect expression of your
+            style and adventure.</p> <br>
+
+            <p>Wait list of other Customers. <br> Add yourself to the list!</p> <br>
+
+            <body>
+
+            <div id="catalog"></div>
+
+            <h2>Add a New Vehicle</h2>
+            <form id="addVehicleForm">
+                Make: <input type="text" id="make" value="Tacoma" readonly>
+                Model: <input type="text" id="model">
+                Year: <input type="number" id="year">
+                Color: <input type="text" id="color">
+                <button type="submit">Add Vehicle</button>
+            </form>
+
+            </body>
+
+            <br>
+            <br>
+            <p>Ready to turn your Tacoma dreams into reality? Don't miss out on the
+                opportunity to create the Tacoma of your dreams. Join our community
+                of satisfied customers today! </p> <br>
+            <div style="text-align: left; margin-bottom: 20px;">
+                <h3> REVIEWS: </h3>
+            <body>
+
+
+
+            <div class="review">
+                <h3>Review from John in Portland, Oregon:</h3>
+                <p>"I couldn't be happier with the transformation my Tacoma underwent at this workshop!
+                    From the moment I walked in, the team was attentive to my needs and helped me choose
+                    the perfect upgrades for my Tacoma Off-Road. The attention to detail and craftsmanship
+                    are truly exceptional. Now, my Tacoma not only looks incredible but performs even better
+                    on and off the road. Thank you!"</p>
+            </div>
+
+            <div class="review">
+                <h3>Review from David in Los Angeles, California:</h3>
+                <p>"As a proud owner of a Tacoma TRD PRO, I wanted only the best for my truck.
+                    I'm thrilled to say that this workshop delivered beyond my expectations. The team worked
+                    closely with me to customize every aspect of my Tacoma, ensuring it matched my vision
+                    perfectly. The end result? A beast of a truck that turns heads wherever I go. Highly
+                    recommend their services!"</p>
+            </div>
+
+            <div class="review">
+                <h3>Review from Alex in Seattle, Washington:</h3>
+                <p>"I recently brought my Tacoma Sport to this workshop for some much-needed upgrades,
+                    and I couldn't be more impressed. Not only did they offer budget-friendly options that fit
+                    within my financial constraints, but they also went above and beyond to make sure every detail
+                    was taken care of. The team's expertise and passion for what they do truly shine through in their work.
+                    My Tacoma has never looked better. Thank you!"</p>
+            </div>
+            </body>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <hr class = "h">
+                <hr class = "h">
+
+    </section>
+
+
+    <img src="images/transtion_pic.jpg" width= "100%">
+
+    <section id="Taco Tuesday">
+
+        <body>
+
+        <h1> TACO TUESDAY <br> Top Tacoma Transformation of the Month! </h1> <br> <br>
+
+        <p>Join us every first Tuesday for our exclusive 'Tacoma of the Month' contest,
+            where you'll have the opportunity to cast your vote for the best and most
+            pristine Tacoma in our community.<br> <br>
+
+            From bold exterior modifications to cutting-edge interior upgrades,
+            every detail reflects the owner's passion for perfection and commitment
+            to pushing the boundaries of what's possible. The Tacoma isn't just a
+            vehicle, it's a work of art.<br> <br>
+
+            The winner will receive a voucher for a professional car detailing service!</p>
+        <div id="options">
+
+            <div class = "Vote">
+                <div class = "Tacomas">
+
+                    <img src="images/constest1.PNG" width= "100%">
+                </div>
+
+                <div class = "Tacomas">
+                    <img src="images/Contest2.jpg" width= "100%">
+                </div>
+
+                <div class = "Tacomas">
+                    <img src="images/Contest3.jpg" width= "100%">
+                </div>
+
+            <button onclick="vote('Tacoma1')">Tacoma 1</button>
+            <button onclick="vote('Tacoma2')">Tacoma 2</button>
+            <button onclick="vote('Tacoma3')">Tacoma 3</button>
+
+        </div>
+
+        <h2> Live Results</h2>
+        <div id="results">
+            Tacoma 1: <span id="Tacoma1">0</span> Votes<br>
+            Tacoma 2: <span id="Tacoma2">0</span> Votes<br>
+            Tacoma 3: <span id="Tacoma3">0</span> Votes
+        </div>
+        <script src="scripts.js"></script>
+
+        </body>
+
+
+    </section>
+
+    <hr class = "h">
+    <hr class = "h">
+    <img src="images/trans_tacomeet.PNG" width= "100%">
+
+    <section id="Meetup Calendar">
+                <div style="text-align: left; margin-bottom: 20px;">
+                    <br>
+                    <h1>LIVE EVENT AND MEETUP CALENDAR</h1>
+                    <br>
+
+                    <p>Rev your engines and join us for heart-pounding drives like never
+                        before! Our Live Event and Meetup Calendar offers adrenaline-pumping
+                        experiences for Tacoma enthusiasts. From spirited mountain cruises to
+                        coastal road trips and everything in between, our group drives are all
+                        about adventure, camaraderie, and making memories that last a lifetime.
+                        Get ready to fuel your passion for driving and connect with fellow
+                        enthusiasts on epic journeys that ignite your sense of exploration and
+                        excitement!</p>
+                    <br>
+                    <br>
+                    <ul>
+
+                        <li> Big Bear Lake Trails - February 3, 2024</li>
+                        <br>
+                        <ul>
+                        <li>Location: San Bernardino Mountains, near Big Bear Lake</li>
+                        <li>Difficulty: Easy to Difficult</li>
+                            <li>Description: Big Bear's trail system offers something for everyone,
+                                from scenic forest drives to challenging rock paths. Notable trails
+                                include John Bull Trail and Holcomb Valley Road, providing beautiful
+                                mountain vistas and a variety of terrains.</li>
+                        </ul>
+                        <br>
+
+                        <li> BIRTHDAY OFF ROAD: Rubicon Trail, California -  March 16, 2024</li>
+                        <br>
+                        <ul>
+                            <li>Location: West of Lake Tahoe, California</li>
+                            <li>Difficulty: Moderate to Difficult</li>
+                            <li>Description: The Rubicon Trail is iconic in the off-roading community,
+                                offering rugged terrain, beautiful landscapes, and a challenging
+                                experience for drivers. It's a must-do for serious off-roaders.
+                                And it's Sebastian birthday weekend SO you have to come down!</li>
+                        </ul>
+                        <br>
+
+                        <li> Pismo Beach (Oceano Dunes) - April 13, 2024</li>
+                        <br>
+                        <ul>
+                            <li>Location: Oceano, San Luis Obispo County</li>
+                            <li>Difficulty: Easy to Moderate</li>
+                            <li>Description: The Oceano Dunes SVRA is one of the few places in
+                                California where you can drive on the beach and through sand dunes.
+                                It is perfect for off-roaders looking to experience sand driving and
+                                enjoy the coastal scenery.</li>
+                            <br>
+                        </ul>
+
+                    </ul>
+                    <br>
+                    <br>
+                    <h3>Curious to know our latest location? Add Us on SNAPCHAT for Live Updates!</h3>
+                    <br>
+
+
+                    <ul class="link-list">
+                        <li>
+                            Add us on <b>Snapchat</b> to track our journey via our stories and Snap Map!
+                            <a href="https://www.snapchat.com/add/tacomaterritory?share_id=nIOrd1-6T7OU40VuHKOOjQ&locale=en_US" target="_blank">
+                                <img src="images/TacomaTerritorySNAP.png" alt="Snapchat">
+                            </a>
+                            <p>(Click me too)</p>
+                        </li>
+                        <li>
+                            Check us out on YouTube to see our previous adventures!
+                            <a href="https://www.youtube.com/@TacomaTerritory" target="_blank">
+                                <img src="images/TacomaYouTube.PNG" alt="YouTube">
+                            </a>
+                            <p>(Click me too)</p>
+                        </li>
+                    </ul>
+
+                    <br>
+                    <br>
+
+                    <body>
+                    <h3>Where are we cruising next?</h3>
+                    <br>
+                    <p>Share Your Favorite Off-Roading Trails and Cruises for Epic Excursions! Got
+                        an awesome off-road or cruise trail in mind? Share the location with us,
+                        and let's rally up a big group for an unforgettable adventure together!
+                        Get ready to ride in style with fellow enthusiasts!</p>
+                    <br>
+                    <input type="text" id="itemInput" placeholder="Type an item">
+                    <button onclick="addItem()">Lets Ride</button>
+
+                    <div id="items"></div>
+
+                    <script src="scripts.js"></script>
+                    </body>
+
+                    <br>
+                    <br>
+                    <div>
+
+                        <div class = "Meetups">
+                            <div class = "Meet">
+                                <img src="images/taco-meet1.jpg" width= "100%">
+                            </div>
+
+                            <div class = "Meet">
+                                <img src="images/taco-meet4.jpg" width= "100%">
+                            </div>
+
+                    </div>
+
+    </section>
+
+</body>
+</html>
